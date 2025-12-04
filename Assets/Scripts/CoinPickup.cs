@@ -20,6 +20,7 @@ public class CoinPickup : MonoBehaviour
         if (playerController && UIController.Instance != null)
         {
             //Pick it up!
+            print("Picked up coin!");
             OnPickup();
         }
     }
